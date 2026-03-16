@@ -254,7 +254,7 @@ const Swiper = () => {
           max-sm:absolute
           max-sm:top-0
           max-sm:left-0
-          blog1Img blogsImg w-[40vw] h-[100vh] bg-[url('images/blogs1.png')]"></div>
+          blog1Img blogsImg w-[40vw] h-[100vh] bg-[url('/blogs1.png')]"></div>
         </div>
 
         <div className="
@@ -267,7 +267,7 @@ const Swiper = () => {
           max-sm:absolute
           max-sm:top-0
           max-sm:left-0
-          blog2Img blogsImg  w-[100%] h-[50vh] bg-[url('images/blogs3.png')]"></div>
+          blog2Img blogsImg  w-[100%] h-[50vh] bg-[url('/blogs3.png')]"></div>
           <div className="
           max-sm:h-[100vh]
           max-sm:w-[100vw]
@@ -341,7 +341,7 @@ const Swiper = () => {
           max-sm:absolute
           max-sm:top-0
           max-sm:left-0
-          blog3Img blogsImg  w-[100%] h-[50vh] bg-[url('images/blogs2.png')]"></div>
+          blog3Img blogsImg  w-[100%] h-[50vh] bg-[url('/blogs2.png')]"></div>
         </div>
       </div>
     </>
