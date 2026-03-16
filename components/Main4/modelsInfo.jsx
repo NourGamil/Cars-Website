@@ -30,7 +30,7 @@ const ModelInfo = ()=>{
             model2btn.classList.remove("selectedModel");
             model3btn.classList.remove("selectedModel");
             modelsTl.to(".modelInfoImg",{x:1000,y:-100,duration:1})
-            .set(".modelInfoImg",{attr:{src: "urus0.png"}})
+            .set(".modelInfoImg",{attr:{src: "/images/urus0.png"}})
             .to(".modelInfoImg",{x:0,y:0,duration:1});
             modelsTxTl.to(".mITxChanger",{y:-100,opacity:0,duration:1})
             .to(".mITxChanger",{y:100,duration:0.1});
@@ -60,7 +60,7 @@ const ModelInfo = ()=>{
             model2btn.classList.add("selectedModel");
             model3btn.classList.remove("selectedModel");
             modelsTl.to(".modelInfoImg",{x:1000,y:-100,duration:1})
-            .set(".modelInfoImg",{attr:{src: "rev0.png"}})
+            .set(".modelInfoImg",{attr:{src: "/images/rev0.png"}})
             .to(".modelInfoImg",{x:0,y:0,duration:1});
             modelsTxTl.to(".mITxChanger",{y:-100,opacity:0,duration:1})
             .to(".mITxChanger",{y:100,duration:0.1});
@@ -91,7 +91,7 @@ const ModelInfo = ()=>{
             model2btn.classList.remove("selectedModel");
             model3btn.classList.add("selectedModel");
             modelsTl.to(".modelInfoImg",{x:1000,y:-100,duration:1})
-            .set(".modelInfoImg",{attr:{src: "bmw0.png"}})
+            .set(".modelInfoImg",{attr:{src: "/images/bmw0.png"}})
             .to(".modelInfoImg",{x:0,y:0,duration:1});
             modelsTxTl.to(".mITxChanger",{y:-100,opacity:0,duration:1})
             .to(".mITxChanger",{y:100,duration:0.1});
@@ -164,10 +164,6 @@ const ModelInfo = ()=>{
         toggleActions: "play pause resume reset",
       }})
     },[])
-
-
-
-
     
     return(
         <div className="
@@ -246,9 +242,8 @@ const ModelInfo = ()=>{
                 <img className="
                 max-lg:w-[100vw]
                 max-lg:p-[20px]
-                modelInfoImg w-[60vw]" src="/urus0.png" alt="" />
+                modelInfoImg w-[60vw]" src="/images/urus0.png" alt="" />
             </div>
-
         </div>
         </div>
     )

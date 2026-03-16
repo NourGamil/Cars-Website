@@ -35,7 +35,7 @@ const Intro = () => {
             DRIVEN BY DREAMS
           </div>
           <div className="discoverBtn button3 flex w-[200px] h-[60px] items-center justify-center  pointer ">
-            DISCOVER MORE <img src="/arrow-right.svg" alt="" />
+            DISCOVER MORE <img src="/images/arrow-right.svg" alt="" />
           </div>
         </div>
       </div>

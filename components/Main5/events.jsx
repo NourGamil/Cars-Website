@@ -130,7 +130,7 @@ export default function Events() {
             <img className="
             max-lg:w-[100vw]
             max-lg:h-[100vh]
-            w-[100%] " src="/event1.png" alt="" />
+            w-[100%] " src="/images/event1.png" alt="" />
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@ export default function Events() {
             <img className="
                         max-lg:w-[100vw]
             max-lg:h-[100vh]
-            w-[100%] " src="/event2.png" alt="" />
+            w-[100%] " src="/images/event2.png" alt="" />
           </div>
           <div className="
           max-lg:w-[100vw]
@@ -205,7 +205,7 @@ export default function Events() {
             <img className="
             max-lg:w-[100vw]
             max-lg:h-[100vh]
-            w-[100%] " src="/event3.png" alt="" />
+            w-[100%] " src="/images/event3.png" alt="" />
           </div>
         </div>
       </div>
@@ -222,7 +222,7 @@ export default function Events() {
             <img className="
                                     max-lg:w-[100vw]
             max-lg:h-[100vh]
-            w-[100%] " src="/event4.png" alt="" />
+            w-[100%] " src="/images/event4.png" alt="" />
           </div>
           <div className="
                     max-lg:w-[100vw]
