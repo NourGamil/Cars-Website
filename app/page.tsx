@@ -27,7 +27,6 @@ export default function Home() {
     directional: false,
     inertia: false,
     },
-    end: () => "+=" + document.querySelector(".webSite").offsetHight
   }
 });
   },[])

@@ -168,32 +168,6 @@ const ModelInfo = ()=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     return(
         <div className="
@@ -214,6 +188,7 @@ const ModelInfo = ()=>{
         w-[100vw] h-[66vh]  flex pl-[9vw] gap-[20px]">
 
             <div className="
+            max-sm:gap-[10px]
             max-lg:w-[100vw]
             max-lg:px-[40px]
             modelInfoTx w-[30%] h-[100%] flex flex-col gap-[40px] pt-[10px]">
@@ -244,12 +219,14 @@ const ModelInfo = ()=>{
 
                     </div>
                 <div className="
-                max-sm:mt-[10px]
+                max-sm:mt-[30px]
                 max-sm:text-[2.6rem]
                 flex flex-col text-[3rem] font-bold scale-y-160">
                     <div className="fromLeftModelsInfo mITitle">SUV CAR</div>
                 </div>
                 <div className="
+                max-sm:gap-[20px]
+                max-sm:mt-[30px]
                 max-lg:justify-center
                 max-lg:gap-[100px]
                 max-lg:mt-[100px]
