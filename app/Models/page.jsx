@@ -221,7 +221,6 @@ const Models = () => {
     directional: false,
     inertia: false,
     },
-    end: () => "+=" + document.querySelector(".modelsContainer").offsetHight
   }
 });
 
