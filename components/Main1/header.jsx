@@ -324,7 +324,7 @@ const Header = () => {
             max-sm:hidden
             text-[2rem] fontSpechial">ASK ME</div>
             <div className="contactXBtn button3 w-[50px] h-[50px]">
-              <img src="/images/x2.svg" alt="" className="w-[30px] h-[30px]" />
+              <img src="images/x2.svg" alt="" className="w-[30px] h-[30px]" />
             </div>
           </div>
           <div className="w-[100%] border-1 border-[gray]"></div>
@@ -345,7 +345,7 @@ const Header = () => {
             </div>
             <div className="h-[140px] flex justify-center items-center">
             <div className="button3 w-[50px] h-[50px]">
-              <img src="/images/send.svg" alt="" className="w-[20px] h-[20px]" />
+              <img src="images/send.svg" alt="" className="w-[20px] h-[20px]" />
             </div></div>
           </div>
         </div>
@@ -369,12 +369,12 @@ const Header = () => {
       </div>
       <div className="logo lg:-ml-[50px]">
         <a href="/ ">
-          <img className="w-[40px]" src="/images/swWhite.svg" alt="" />
+          <img className="w-[40px]" src="images/swWhite.svg" alt="" />
         </a>
       </div>
       <div className="navAdds flex justify-end gap-[20px] w-[auto] max-sm:gap-[5px]">
         <div className="contactUsBtn pointer">
-          <img className="w-[30px]" src="/images/message-reply.svg" alt="" />
+          <img className="w-[30px]" src="images/message-reply.svg" alt="" />
         </div>
       </div>
 
@@ -382,7 +382,7 @@ const Header = () => {
       scrollToStart pointer fixed bottom-0 right-[10px] 
       border-[#181818] rounded-t-full border-b-[#18181800] border-2 w-[50px] h-[50px] flex 
       justify-center items-center bg-[lightgray] hover:bg-gray-600">
-        <img className="w-[30px] h-[30px]" src="/images/arrowUp.svg" alt="" />
+        <img className="w-[30px] h-[30px]" src="images/arrowUp.svg" alt="" />
       </div>
       </div>
     </div>

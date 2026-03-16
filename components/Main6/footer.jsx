@@ -180,7 +180,7 @@ const Footer = () => {
           </ul>
           <div className="flex w-[20vw] items-center fromRightFooter">
             <a href="/ ">
-              <img className="w-[40px] h-[40px]" src="/images/swDark.svg" alt="" />
+              <img className="w-[40px] h-[40px]" src="images/swDark.svg" alt="" />
             </a>
           </div>
         </div>

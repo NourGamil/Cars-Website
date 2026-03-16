@@ -14,37 +14,37 @@ const Models = () => {
     let urusColor2 = document.querySelector(".urusColor2");
     let urusColor3 = document.querySelector(".urusColor3");
     urusColor1.addEventListener("click", () => {
-      urusImg.src = "/images/urus1.png";
+      urusImg.src = "images/urus1.png";
       gsap.to(".panel1", {
         backgroundImage: "linear-gradient( 50deg, black, #ddddde,black)",
       });
     });
     urusColor2.addEventListener("click", () => {
-      urusImg.src = "/images/urus2.png";
+      urusImg.src = "images/urus2.png";
       gsap.to(".panel1", {
         backgroundImage: "linear-gradient( 50deg, black, #01226d,black)",
       });
     });
     urusColor3.addEventListener("click", () => {
-      urusImg.src = "/images/urus3.png";
+      urusImg.src = "images/urus3.png";
       gsap.to(".panel1", {
         backgroundImage: "linear-gradient( 50deg, black, #a30000,black)",
       });
     });
     urusColor1.addEventListener("mouseover", () => {
-      urusImg.src = "/images/urus1.png";
+      urusImg.src = "images/urus1.png";
       gsap.to(".panel1", {
         backgroundImage: "linear-gradient( 50deg, black, #ddddde,black)",
       });
     });
     urusColor2.addEventListener("mouseover", () => {
-      urusImg.src = "/images/urus2.png";
+      urusImg.src = "images/urus2.png";
       gsap.to(".panel1", {
         backgroundImage: "linear-gradient( 50deg, black, #01226d,black)",
       });
     });
     urusColor3.addEventListener("mouseover", () => {
-      urusImg.src = "/images/urus3.png";
+      urusImg.src = "images/urus3.png";
       gsap.to(".panel1", {
         backgroundImage: "linear-gradient( 50deg, black, #a30000,black)",
       });
@@ -56,37 +56,37 @@ const Models = () => {
     let revColor2 = document.querySelector(".revColor2");
     let revColor3 = document.querySelector(".revColor3");
     revColor1.addEventListener("click", () => {
-      revImg.src = "/images/rev1.png";
+      revImg.src = "images/rev1.png";
       gsap.to(".panel2", {
         backgroundImage: "linear-gradient( 50deg, black, #ddddde,black)",
       });
     });
     revColor2.addEventListener("click", () => {
-      revImg.src = "/images/rev2.png";
+      revImg.src = "images/rev2.png";
       gsap.to(".panel2", {
         backgroundImage: "linear-gradient( 50deg, black, #01226d,black)",
       });
     });
     revColor3.addEventListener("click", () => {
-      revImg.src = "/images/rev3.png";
+      revImg.src = "images/rev3.png";
       gsap.to(".panel2", {
         backgroundImage: "linear-gradient( 50deg, black, #a30000,black)",
       });
     });
     revColor1.addEventListener("mouseover", () => {
-      revImg.src = "/images/rev1.png";
+      revImg.src = "images/rev1.png";
       gsap.to(".panel2", {
         backgroundImage: "linear-gradient( 50deg, black, #ddddde,black)",
       });
     });
     revColor2.addEventListener("mouseover", () => {
-      revImg.src = "/images/rev2.png";
+      revImg.src = "images/rev2.png";
       gsap.to(".panel2", {
         backgroundImage: "linear-gradient( 50deg, black, #01226d,black)",
       });
     });
     revColor3.addEventListener("mouseover", () => {
-      revImg.src = "/images/rev3.png";
+      revImg.src = "images/rev3.png";
       gsap.to(".panel2", {
         backgroundImage: "linear-gradient( 50deg, black, #a30000,black)",
       });
@@ -98,37 +98,37 @@ const Models = () => {
     let bmwColor2 = document.querySelector(".bmwColor2");
     let bmwColor3 = document.querySelector(".bmwColor3");
     bmwColor1.addEventListener("click", () => {
-      bmwImg.src = "/images/bmw1.png";
+      bmwImg.src = "images/bmw1.png";
       gsap.to(".panel3", {
         backgroundImage: "linear-gradient( 50deg, black, #ddddde,black)",
       });
     });
     bmwColor2.addEventListener("click", () => {
-      bmwImg.src = "/images/bmw2.png";
+      bmwImg.src = "images/bmw2.png";
       gsap.to(".panel3", {
         backgroundImage: "linear-gradient( 50deg, black, #01226d,black)",
       });
     });
     bmwColor3.addEventListener("click", () => {
-      bmwImg.src = "/images/bmw3.png";
+      bmwImg.src = "images/bmw3.png";
       gsap.to(".panel3", {
         backgroundImage: "linear-gradient( 50deg, black, #a30000,black)",
       });
     });
     bmwColor1.addEventListener("mouseover", () => {
-      bmwImg.src = "/images/bmw1.png";
+      bmwImg.src = "images/bmw1.png";
       gsap.to(".panel3", {
         backgroundImage: "linear-gradient( 50deg, black, #ddddde,black)",
       });
     });
     bmwColor2.addEventListener("mouseover", () => {
-      bmwImg.src = "/images/bmw2.png";
+      bmwImg.src = "images/bmw2.png";
       gsap.to(".panel3", {
         backgroundImage: "linear-gradient( 50deg, black, #01226d,black)",
       });
     });
     bmwColor3.addEventListener("mouseover", () => {
-      bmwImg.src = "/images/bmw3.png";
+      bmwImg.src = "images/bmw3.png";
       gsap.to(".panel3", {
         backgroundImage: "linear-gradient( 50deg, black, #a30000,black)",
       });
@@ -159,7 +159,7 @@ const Models = () => {
       panelColors1.classList.add("hidden");
       car1Btn3d.classList.remove("hidden");
 
-      urusImg.src = "/images/urus5.png";
+      urusImg.src = "images/urus5.png";
       gsap.to('.panelImg1',{width:'100vw'})
       // for (const part of urusAboutInfo) {
       //   part.classList.remove("hidden");
@@ -177,7 +177,7 @@ const Models = () => {
       panelImgCon1.classList.remove("hidden");
       panelColors1.classList.remove("hidden");
       car1Btn3d.classList.remove("hidden");
-      urusImg.src = "/images/urus1.png";
+      urusImg.src = "images/urus1.png";
 
       gsap.to('.panelImg1',{width:'60vw'})
 
@@ -246,7 +246,7 @@ const Models = () => {
       panelImgCon2.classList.remove("hidden");
       panelColors2.classList.add("hidden");
       car2Btn3d.classList.remove("hidden");
-      revImg.src = "/images/rev5.png";
+      revImg.src = "images/rev5.png";
       gsap.to('.panelImg2',{width:'100vw'})
       // for (const part of revAboutInfo) {
       //   part.classList.remove("hidden");
@@ -264,7 +264,7 @@ const Models = () => {
       panelImgCon2.classList.remove("hidden");
       panelColors2.classList.remove("hidden");
       car2Btn3d.classList.remove("hidden");
-      revImg.src = "/images/rev2.png";
+      revImg.src = "images/rev2.png";
       gsap.to('.panelImg2',{width:'60vw'})
       // for (const part of revAboutInfo) {
       //   part.classList.add("hidden");
@@ -301,7 +301,7 @@ const Models = () => {
       panelImgCon3.classList.remove("hidden");
       panelColors3.classList.add("hidden");
       car3Btn3d.classList.remove("hidden");
-      bmwImg.src = "/images/bmw5.png";
+      bmwImg.src = "images/bmw5.png";
       gsap.to('.panelImg3',{width:'100vw'})
       // for (const part of bmwAboutInfo) {
       //   part.classList.remove("hidden");
@@ -319,7 +319,7 @@ const Models = () => {
       panelImgCon3.classList.remove("hidden");
       panelColors3.classList.remove("hidden");
       car3Btn3d.classList.remove("hidden");
-      bmwImg.src = "/images/bmw3.png";
+      bmwImg.src = "images/bmw3.png";
       gsap.to('.panelImg3',{width:'60vw'})
       // for (const part of bmwAboutInfo) {
       //   part.classList.add("hidden");
@@ -508,7 +508,7 @@ const Models = () => {
               </div>
 
               <div className="eng"></div>
-              <img id="urusImg" className="rounded-2xl " src="/images/urus1.png" alt="" />
+              <img id="urusImg" className="rounded-2xl " src="images/urus1.png" alt="" />
             </div>
           </div>
 
@@ -686,7 +686,7 @@ const Models = () => {
               </div> */}
 </div>
               <div className="eng"></div>
-              <img id="revImg" src="/images/rev2.png" alt="" />
+              <img id="revImg" src="images/rev2.png" alt="" />
             </div>
           </div>
 
@@ -861,7 +861,7 @@ const Models = () => {
               </div> */}
 </div>
               <div className="eng"></div>
-              <img id="bmwImg" src="/images/bmw3.png" alt="" />
+              <img id="bmwImg" src="images/bmw3.png" alt="" />
             </div>
           </div>
 

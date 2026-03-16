@@ -61,7 +61,7 @@ const Main2 = ()=>{
         max-sm:!bg-[75%]
         max-lg:!shadow-[0]
         max-lg:!bg-[80%]
-        absolute -z-1 w-[100vw] h-[100vh] bg-[url('/images/allcars1.png')] rolerbb  "></div>
+        absolute -z-1 w-[100vw] h-[100vh] bg-[url('images/allcars1.png')] rolerbb  "></div>
       </div>
     )
 }
