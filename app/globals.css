@@ -168,6 +168,7 @@ body {
   background-position:center;
   background-repeat: no-repeat;
 }
+
 .blogs1BtnBorder {
   fill: none;
   stroke: url("#gradient1");
@@ -189,9 +190,6 @@ body {
 
 /* ----------------------------the Why us--------------------------------- */
 .rolerbb {
-  background-size: cover;
-  background-position: center right;
-  background-repeat: no-repeat;
   box-shadow: 100px 0px 400px 150px black inset;
 }
 /* ----------------------------items--------------------------------- */

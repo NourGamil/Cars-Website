@@ -254,20 +254,35 @@ const Swiper = () => {
           max-sm:absolute
           max-sm:top-0
           max-sm:left-0
-          blog1Img blogsImg w-[40vw] h-[100vh] bg-[url('/blogs1.png')]"></div>
+          blog1Img  w-[40vw] h-[100vh] ">
+
+          <img className="
+          max-sm:h-[100vh]
+          max-sm:w-[100vw]
+          w-[40vw] h-[100vh] object-cover object-center" src="images/blogs1.png" alt="blogs1" />
+          </div>
         </div>
 
         <div className="
         max-sm:relative
         max-sm:w-[100vw]
         blog2Con flex flex-col w-[82vw] h-[100vh] justify-between m-[auto] hidden">
+
           <div className="
           max-sm:h-[100vh]
           max-sm:w-[100vw]
           max-sm:absolute
           max-sm:top-0
           max-sm:left-0
-          blog2Img blogsImg  w-[100%] h-[50vh] bg-[url('/blogs3.png')]"></div>
+          blog2Img 
+          w-[100%] h-[50vh]
+          ">
+          <img className="
+          max-sm:h-[100vh]
+          max-sm:w-[100vw]
+          w-[100%] h-[50vh] object-cover object-center" src="images/blogs3.png" alt="blogs3" />
+          </div>
+
           <div className="
           max-sm:h-[100vh]
           max-sm:w-[100vw]
@@ -341,7 +356,13 @@ const Swiper = () => {
           max-sm:absolute
           max-sm:top-0
           max-sm:left-0
-          blog3Img blogsImg  w-[100%] h-[50vh] bg-[url('/blogs2.png')]"></div>
+          blog3Img  w-[100%] h-[50vh]">
+
+          <img className="
+          max-sm:h-[100vh]
+          max-sm:w-[100vw]
+          w-[100%] h-[50vh] object-cover object-center" src="images/blogs2.png" alt="blogs2" />
+          </div>
         </div>
       </div>
     </>

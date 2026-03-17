@@ -58,10 +58,14 @@ const Main2 = ()=>{
         </div>
 
         <div className="
-        max-sm:!bg-[75%]
-        max-lg:!shadow-[0]
-        max-lg:!bg-[80%]
-        absolute -z-1 w-[100vw] h-[100vh] bg-[url('/allcars1.png')] rolerbb "></div>
+        absolute -z-1 w-[100vw] h-[100vh] rolerbb ">
+          <img className="
+          max-sm:h-[100vh]
+          max-sm:w-[100vw]
+          max-sm:object-[75%]
+          max-lg:object-[80%]
+          w-[100vw] h-[100vh] object-cover object-center" src="images/allcars1.png" alt="allcars1" />
+        </div>
       </div>
     )
 }
