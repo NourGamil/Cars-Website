@@ -350,9 +350,6 @@ const Header = () => {
           </div>
         </div>
 
-
-
-
       <div
         id="menuChanger"
         className="menuCon flex items-center text-white text-[1.4rem] cursor-pointer gap-[10px]"
@@ -368,9 +365,9 @@ const Header = () => {
         <p className="hidden lg:block">MENU</p>
       </div>
       <div className="logo lg:-ml-[50px]">
-        <a href="/ ">
+        <Link href={"/ "}>
           <img className="w-[40px]" src="images/swWhite.svg" alt="" />
-        </a>
+        </Link>
       </div>
       <div className="navAdds flex justify-end gap-[20px] w-[auto] max-sm:gap-[5px]">
         <div className="contactUsBtn pointer">

@@ -179,9 +179,9 @@ const Footer = () => {
             </li>
           </ul>
           <div className="flex w-[20vw] items-center fromRightFooter">
-            <a href="/ ">
+            <Link href={"/ "}>
               <img className="w-[40px] h-[40px]" src="images/swDark.svg" alt="" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex w-[82vw] h-[4vh] border-b-1 border-[var(--tx2)]"></div>
